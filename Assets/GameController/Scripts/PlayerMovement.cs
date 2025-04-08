@@ -13,7 +13,9 @@ public class PlayerMovement : MonoBehaviour
     public GameObject spriteObject;
     public Animator _myAnimator;
 
-    public bool isOnDialogue; 
+    public bool isOnDialogue;
+
+    public int Points; 
  
 
     private void Awake()
@@ -22,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         playerRigidbody = this.GetComponent<Rigidbody2D>();       
         Actions.MoveEvent += UpdateMoveVector;
         isOnDialogue = false;
+        Points = 0; 
 
     }
     // Update is called once per frame

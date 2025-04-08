@@ -15,6 +15,15 @@ public class InteractObject : MonoBehaviour
         Dialogue
     }
 
+    public enum TypePickUp 
+    {
+        None,
+        Apple,
+        Cheese,
+        Fish,
+        Gem
+    }
+
     public DialogueManagement dialogueManager = null ; 
 
     [Header("Type of Interaction")]
@@ -29,6 +38,8 @@ public class InteractObject : MonoBehaviour
     public TextMeshProUGUI infoText = null;
 
     public bool isTextDisplayed;
+
+    public Inventory playerInventory; 
    
 
     // Start is called before the first frame update
@@ -43,6 +54,7 @@ public class InteractObject : MonoBehaviour
 
         dialogueManager = GameObject.FindObjectOfType<DialogueManagement>();
 
+        playerInventory = GameObject.FindObjectOfType<Inventory>(); 
     }
     
 
@@ -103,6 +115,25 @@ public class InteractObject : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         infoText.text = "";
         isTextDisplayed = false;
+    }
+
+    public void AddToInventory(TypePickUp typePickUp) 
+    {
+        switch (typePickUp) 
+        {
+            case TypePickUp.Apple:                
+                //Add Apple
+                break;
+            case TypePickUp.Cheese:
+                //Add Cheese
+                break;
+            case TypePickUp.Fish:
+                //Add Fish
+                break;
+            case TypePickUp.Gem:
+                //Add Gem;
+                break; 
+        }
     }
 
 }
