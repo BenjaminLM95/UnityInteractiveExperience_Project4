@@ -1,0 +1,8034 @@
+fileFormatVersion: 2
+guid: 61ab4b10e6b1ad34184d081d09e70746
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SickOldMan_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3646
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b707305d124c2cf4884b088a44a96e78
+      internalID: -903300750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3646
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f3092c045d71247b2c2f5bf8c88bad
+      internalID: 1965139920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3646
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc737387fe8384fb4fcdf16793fd25
+      internalID: 2134436284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3646
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c05122be23deb40a5025e43ad07cc2
+      internalID: 108903295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3646
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f29c288262f5f4085162c8710456d0
+      internalID: -1694310801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3646
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03705ccf88ecda44886b142f06afb03a
+      internalID: 1612900272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3646
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd60e8cd7f52a224daa0e9363a0ea70d
+      internalID: -1754573182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3582
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e2f6a3ff049d43a1c395623d3dd32
+      internalID: -2083947673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3582
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e81d81ed2dfb3478050cb92e7173e5
+      internalID: 561104726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3582
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52836ca92a15b6541bc6ce1eaf5d7271
+      internalID: 1604694052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3582
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacea820a10d40b4fb48a69f271dd1f8
+      internalID: -437996945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3582
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575900f2b83600148bf33f62b0373659
+      internalID: 166944137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3582
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4576f529f55e2584096efb55843ad322
+      internalID: 1830926027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3582
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ec7b6a48136e4d9e7a9bf44855a36
+      internalID: 1458189431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3519
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522fca9503069c4a801f25b1b08d190
+      internalID: -111354720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3519
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff3982b15e87b0459f04cabbf66545e
+      internalID: -1233977298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3519
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32a8e73849d92c458ef4817b2456934
+      internalID: -480650605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3519
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc125ee3a364a43489227034eb7a5dcd
+      internalID: 1578124775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3519
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6a3ba9445dea44ba6f22e79d2b87c8
+      internalID: 176877549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3519
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e268848af99ef4aa051681f2325de9
+      internalID: 326685146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3519
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e772ab763fe57844b172b6267aeda2d
+      internalID: -4015012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3456
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0173f99a9ee15174a9704cb2ddc3175e
+      internalID: -1252428370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3456
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddbebdc05f6eb04ebaf624d6b66810b
+      internalID: -998898215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3456
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab00b4f085778e4d87581613d5c4cb0
+      internalID: -1342387635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3456
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fffc2a202365d4ca95c9ba98a2e993
+      internalID: 1208533714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3456
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb906016de52b146a01052bb1326e72
+      internalID: 1253352960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3456
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f866cb0ea995c3247be1ade0ccfb492b
+      internalID: 866912710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3456
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3497af1a4a56e847acfbcd99756dabf
+      internalID: -1757936855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3392
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3216aaa45b9840a597451bd37010f
+      internalID: -1868652058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3390
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9496a35c91b37354187017df6bbec428
+      internalID: 614374575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3390
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a70a3a27be53242a9e721cd2137151
+      internalID: 385948135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3390
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d776863e57ffd642b53bd3bc2339d14
+      internalID: 200306327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3390
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610829eef12f80149ad4cff2b5ffb612
+      internalID: -1535304561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3390
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53581c48532754e4e8172ddedfbe9a2f
+      internalID: -632073841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3390
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c95cf354783da478bfc11933b82039
+      internalID: 1214145527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3390
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4a012088972594f9f6b9b9c3a9a187
+      internalID: -1732717375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3327
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f29bb60443aad46aa3237cc55ec4ea
+      internalID: -1739372429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3327
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0284bc401173d274c82a6ff85b90b45b
+      internalID: -257851896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3327
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f28de882923924b93b38437a72ad04
+      internalID: 1962853330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3327
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe10948b9fa955479a96a7f3e1dea00
+      internalID: 1044029587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3327
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa20758fc920eda498ae1e00a282dc63
+      internalID: 2141797272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_41
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 3327
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7f8ee6968b1940bfbb5185b68a9df
+      internalID: -160439886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_42
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3327
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6e4bfe7b8d7bb498458719ad8fa12f
+      internalID: 59062814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3327
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7194a68a60ab1c340a92cd27750c5cd2
+      internalID: 1608780802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3263
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a09428d1672c438089002b5105161
+      internalID: -1237900121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3263
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f61ee20604fd6c47a21c9a2b2ca85c3
+      internalID: -1058967401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3263
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e48f70a76b41cc47b08fe01c9fb0c96
+      internalID: 812660269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3263
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344c234c62dc11e4786bfa7128e85aad
+      internalID: 1127523008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3263
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecbe2b78c719ed49b0e88805ed336db
+      internalID: -811985123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3263
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64990cbbf9632384bac57375a04a1733
+      internalID: -1534478732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3263
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b0d88e6976424b8c79739a5a6a6ad
+      internalID: -909446431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3263
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f41d3686be70944aaa39863d4dac01
+      internalID: -1255361188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3198
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853e4aff648915449b3b3610b6f5fa1f
+      internalID: 765661688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3198
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879ff96f61cd11e479ddbf51730b958e
+      internalID: 363073562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_54
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3198
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898c37a6eaffb584bb7f5fd6703d0937
+      internalID: -1162049562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3198
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceea371af3f0b44e85f5e76bf4ff1de
+      internalID: -1067659064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3198
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaf545ea47f8e048be8c7eb3f571991
+      internalID: -1182612780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3198
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b33173a202d184bbb670f871dac7f6
+      internalID: 1190006986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3198
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2878dc3d740005469d97878ae6a19c0
+      internalID: 359136501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3198
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f0bb281954f944875c4a6c3180401
+      internalID: -1484084263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3137
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e17a6897432f43b0e4ca3e44ed615
+      internalID: 1264773832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3137
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45d5f382863644b81f4ee2f2644ff7
+      internalID: -923654668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_62
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3137
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4486918913d29042a7eef4d907dd5c8
+      internalID: -2015638396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3135
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16145721746c0634bbd8aae2c7637688
+      internalID: 871589433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3137
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc6d79985672941ba8d703f2a45be2
+      internalID: -486775987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_65
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3137
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287842cb8f20ba242b03e147a5b19b10
+      internalID: 1576156146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_66
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3137
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59117c345b427654c957020c9da5bf6f
+      internalID: -745586703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3135
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19be6afdc5aa5e44982cb5ff1993150b
+      internalID: 582763045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3137
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b78fa925cd9b4ca148b7020edf11f
+      internalID: 462323998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3071
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a327463472126e45b2a9e2b303a6a05
+      internalID: -665671751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3071
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ae8d11d474624f8399161673c15d2
+      internalID: 1646373103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3073
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a26a1dc734122047b48670c353f0f23
+      internalID: 850219898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3071
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c50f9cd99cf6d458712fe71632a7db
+      internalID: 1355921109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_73
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3071
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4a9d4138c977045ab00c4dd29414ab
+      internalID: 1228103756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3071
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaf206c46cf9cd4ead37d30a1761bb7
+      internalID: -1027911497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3071
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d1d65ee93bad949b33ce52c44b4725
+      internalID: 235094082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_76
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3071
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5567f936f8635c54e970b024213ba496
+      internalID: 890967146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3071
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79545acf5ec7e8e49aeffb482b48d6f6
+      internalID: -898279071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3006
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b116b698e0758c4b8dcdbe2f8b5a870
+      internalID: 265698788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3006
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7517548250ab1584085e84dcb0538805
+      internalID: -327447915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_80
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3006
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e77685facbb9488a5f5f94ac3ea87
+      internalID: 1562995124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3006
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b395e5365e8db884883a4586c658a663
+      internalID: -1714279938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3006
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759e1c3e8b1d1014aaad6abbf45aa22d
+      internalID: 1526890934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_83
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3006
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d302093fe969b458d2b2d5655084fd
+      internalID: -508385080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_84
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3006
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6ffcbe1829a124c8e196dd6d9e96b8
+      internalID: -1118889819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3006
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eee16221ffdc44fb0e510e27224592
+      internalID: 1556449944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3006
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833d191cad222149a64a1bd577d712a
+      internalID: -1699571088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2943
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5131bf7375dc84eadc869bfce1fcec
+      internalID: 1827924100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2943
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e039344693b250c49b8a1cd02a86a73f
+      internalID: 524584336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2944
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0437dbb1655145c43968642eadc1dd67
+      internalID: 1279565171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2944
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b2d6c45c130741acb0d3e9df21c4d
+      internalID: 2048872767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_91
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2944
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7cda63584afe645ac72e7e62256669
+      internalID: 2023548047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_92
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2943
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9792c721020efb4ebf7f596d559432e
+      internalID: 1934744133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2944
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7792761e730a10d49b4c380f738fe128
+      internalID: 911237638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2943
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b30cc87016b92488270e81df05ac90
+      internalID: 1670837592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2943
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1240a24571b740943bb527f7a3a00b89
+      internalID: 1815503095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2879
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121faaefaae72ea43b00a24a2c15aa3e
+      internalID: 1695159050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2877
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d00e468fd2731439b114945656bda9
+      internalID: -1878650173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2877
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd16ed58e72ca48a1e9b6868447c2a
+      internalID: 992419213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2877
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d59957bace3864c9ec9b90a9ec7811
+      internalID: -302722855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_100
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2877
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adaa731ec8d71445a15d2f9401b505d
+      internalID: 337366955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2877
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015989ce3687ec418659c017bf22107
+      internalID: -279335217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_102
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2814
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1800c2a38c54c40a5f973c0b7537fa
+      internalID: 2108280277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2814
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacabea5ca59bf2499420cd2bf4f9813
+      internalID: -446950194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2814
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb179c8e8c3964493297385190975e
+      internalID: 1172508810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_105
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2814
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b97c7ed0ef82e94583f827e272fc8dd
+      internalID: 585878729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2814
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae22c6aea8a0964dafb3082f963c898
+      internalID: 60432263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_107
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2814
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d07a9477312a064d8e275002954fca5
+      internalID: -184569399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2750
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb6a8a90ae4e6458cce88f4e6e63fb
+      internalID: 116254397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_109
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2750
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c839bd9a51301a4088e219bd1868ea3
+      internalID: 92329271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2750
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4835830ab63ff6d4eb2bb108bb708da0
+      internalID: -856117326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2750
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23aef0fdcc83954893569b837ade6d4
+      internalID: 1204747401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2750
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f7aaa53749cb947938975bfb8c1036
+      internalID: 1551324060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2750
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d584443f15c8a64a81573230e341a2d
+      internalID: -1701564244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_114
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2687
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045abc0463763c044b4ba2d71b70a5a4
+      internalID: 928227443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2687
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dff1c074cee6c4eb40d24f3f772374
+      internalID: -1858696895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2687
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8497ddfef03300a458217dd58dc9ec9a
+      internalID: -39880002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2687
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc359c27826ae54a8c5db4179ee647d
+      internalID: -914171471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_118
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2687
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5434eb22fd3ca3f469d9315dae24deba
+      internalID: -1711568774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_119
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2687
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1b2353a936594fb38d71061f5648d
+      internalID: 291137302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2623
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a0a274fbe7f24a886c11a71a66487
+      internalID: -28349040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2622
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd6a4d549faf12419890b0bb0414352
+      internalID: 1114932670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2622
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1ca3cda24f9844b9b85e11ee682565
+      internalID: 269699648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2622
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160a4a0412386c1419d430d14889d392
+      internalID: -1670742291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_124
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2622
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceca1a8bcd90c44aa1a4bd090d4ca8b
+      internalID: 198615955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2622
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f31bd53905e6954698e76922bf451aa
+      internalID: -775632309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2622
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d81e1e16fe344a8919951b52a4dde
+      internalID: 139451103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_127
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2622
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03896b138b93224482abd1a27c87c4e
+      internalID: -1527302205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_128
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2622
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c375b6f8a4c9049439a3a685af652e51
+      internalID: -402982909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_129
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2622
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85390637a445c41a3e62e5b7c073e9
+      internalID: 237841582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_130
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2622
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4a3052ff0157409f488c43dafa49b
+      internalID: -1842213897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2622
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849a2795efaa7fd469be7d9868a1090a
+      internalID: -900940626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_132
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2622
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf214f908145846a5e5a764125760d
+      internalID: -1438995691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2558
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88cb9639c783c643a8ee2f5291fdc83
+      internalID: 1010041838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2558
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c14c0d1682cf7c4caf6286111983358
+      internalID: 1941623962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2558
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddb9f3eef02f164a8f02fe444e21a44
+      internalID: 501528301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_136
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2558
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f7af711fb92cb41bbd4232d046c7b0
+      internalID: -1431159124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2558
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5993832ac23ea43b540a4e9c3e569b
+      internalID: -1188781131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2558
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac5cb5eccef34b43962c499d712b16c
+      internalID: 865696761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_139
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2558
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aac4126c9eeba4aa5e80368976aae2
+      internalID: 244554839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2558
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5e2ff12af5dd4fac33870c2d7ec38
+      internalID: 1682600052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2558
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983df79231341e4d86d2ca826a9ce90
+      internalID: 525852212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_142
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2558
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8830cba06da81d49a5df009c69f050e
+      internalID: 526577134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_143
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 2558
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b75b8c4de97d9640b42ec6ae52430af
+      internalID: -2070020814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2558
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ca31f947f208645bd8c6e5f0115881
+      internalID: 10994399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2558
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077fcd1ae88028d42b0626f5ea51434c
+      internalID: -1056227286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_146
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2495
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0690b8409854b64596820c8e6d7596d
+      internalID: 2031991709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_147
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a684eaa17dbcc4ea2776334d5ebf9f
+      internalID: 19130689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7162489d282c5954c845cef98b64bc00
+      internalID: 546219645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2495
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c2bdf136482a849b07983148546cfe
+      internalID: 1605437360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2495
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb792e85e0f52549b4a8edbe07c36fa
+      internalID: -448704718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_151
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc3b95c48124d4aa0f61c12d946dd0
+      internalID: -872372466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2495
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c53a4840f433040b3964993e6b016c
+      internalID: 517596062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bf6ad602d34e3408db2d3cc5d548a5
+      internalID: 698644026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac9a5ee538b0d14591f8d5073e09866
+      internalID: -795600212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_155
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848faff9dc20714ab2aaccb3ead61b1
+      internalID: 188664417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_156
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d076d0e51834a47aecc50066a19e35
+      internalID: 1988023003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2495
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac7010b8f15904498834511fad2a48
+      internalID: 36415808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_158
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2495
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7b6c80eedbdbe429355f685e7f158e
+      internalID: -457730617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2431
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d0bfb27f463fe4a928506378a6f9db
+      internalID: 441823598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2431
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192355c6270c4c84dbdbb142928c27b6
+      internalID: 1894595695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_161
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2431
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc51e5b7e389ed6468c4b89ec5979dda
+      internalID: -1182280369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_162
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a917419cc07a5489135e51251f584a
+      internalID: 1522948975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_163
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731cbe8faeaf3564fba253ca5499812b
+      internalID: 444900271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_164
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2431
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2162dbf7e9926d408eb4fd64d49ac9c
+      internalID: -1072535798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_165
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5261e63a4cb6042be61d789add0915
+      internalID: -130066862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54247ff83e06b2b4b9db90fe74377ee4
+      internalID: -881097302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2431
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af900e7d8fa0497489bddabdb919735a
+      internalID: 1671976713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_168
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b30f61747d324b9a399d94876d902
+      internalID: -874703310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_169
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83551ab4d89d5042969d48354176c34
+      internalID: -1986501366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_170
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2431
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2aee274ca522447bdf4abb3874132d
+      internalID: 1805815708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2431
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fe6e4bc9e97f84bbd42157571e1ec5
+      internalID: 843092934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2366
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b56576c6ae78a4aa5c3063fd9e154d
+      internalID: -1488193533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_173
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2366
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740707dfe43a097448ca1723ed631000
+      internalID: 1965933839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2366
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c830ae44c7d3647bc28de78c351e8d
+      internalID: -991910779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2368
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a90196908911d24e8b4c92dbf18a17c
+      internalID: 426401337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2368
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d56f0c0a27c5ca429fba570b4777f2e
+      internalID: 1940548661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_177
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2366
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4cc7070007ac4283b2a9354fce1ba
+      internalID: -589051156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_178
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2305
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc39ed0b0acdc4246bbf427c53e44327
+      internalID: -1774202872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_179
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2304
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a7896e710920842a8ae7343fbddea2
+      internalID: 1559286480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_180
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2308
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da53adf281e1e54c9271fb1477779b2
+      internalID: 1808590785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2305
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8d357fe489c7445bd8ca669572d8da
+      internalID: -623592955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_182
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2305
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9222e9738368b64990cc7c1bd9d8ca2
+      internalID: 1631119651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_183
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2308
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a555567a754b23a4e94908128c2a06d1
+      internalID: -406807589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_184
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2239
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6714f4ed5cacd32448b3c922db04bc58
+      internalID: 622589058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_185
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2239
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d217961a326f8843843340d346e12ca
+      internalID: -867280165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_186
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2174
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fb80a591c1a0247b985dd086ec64f3
+      internalID: 345510888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_187
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2174
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a159e6862c874ba17f8b02df6fad9
+      internalID: 1622795177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_188
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2111
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396efc4c137b8ce4fbb21253b61475ae
+      internalID: -927017706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_189
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2111
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4d4590bb690bf48a8ee2f1e93553d0
+      internalID: -783441908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_190
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2047
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239161274cac3340891628f8b740c14
+      internalID: 1443223051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_191
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2047
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb3b5ffc81bb94c93e019f307762f1
+      internalID: -1078843562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_192
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1982
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75fe6d133f8a8b4f9eed0219aa8628a
+      internalID: 1512554608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_193
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1984
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d585658e1272f944aec5d5c07cd5c68
+      internalID: 178140260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_194
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1985
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c982a5376c1739843ba94f7163153b7a
+      internalID: -725670165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_195
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1991
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee4b6508173dbe4f876d7cc02bf4cbd
+      internalID: -1731562742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_196
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1987
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba52a7e28eba67c469b8bca57472554b
+      internalID: -1298812562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_197
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1919
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16c74c1953654469070d8251dbc7cd
+      internalID: 1015728180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_198
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1919
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1c711bc8bdbf84489ec08f5a298e06
+      internalID: 2051895808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_199
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1920
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb7f239009144b4aafc6bb653809475
+      internalID: 627378499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_200
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1922
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02dd364147f1294396abfb51fe85c02
+      internalID: 872153476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_201
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1919
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62ba678b11f5f245bd9eb0de1124de9
+      internalID: -1412856809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_202
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1855
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb987a1e9b5d617439f5bfea20eaf1a9
+      internalID: 1259849090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_203
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1855
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01834858857d6984d859447c09a04fe1
+      internalID: -609444303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1857
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0649a2bdd896548be701451e784f5c
+      internalID: -1294662963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_205
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1862
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8cae767588f924a9cc0ea718900282
+      internalID: 836608019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_206
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1859
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d02ee113b2a5b14bbde956f5b426921
+      internalID: -319635720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_207
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1790
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573fc96e27c1f5e4a96c6e7cba72b084
+      internalID: 2551602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_208
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1790
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403585b8073c18b4aa6481bc2b17a46c
+      internalID: -1278231308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_209
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1793
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01decd02c9894d44994626c3f1e3f21a
+      internalID: -652005602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_210
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1795
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217753b358087247882588ff1f26229
+      internalID: 2094354029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_211
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1790
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572679c19a85924cad72340487c662e
+      internalID: -751502541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_212
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1728
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcf5d7884ddedd4f88ab8864f503955
+      internalID: 1550588963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_213
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1728
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18853463307f08b4ba1031ac56355e29
+      internalID: 1060129436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_214
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1737
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119fe90cb2f67646920b305f75b1d14
+      internalID: -1305787817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_215
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1665
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2790538bd2aa23d43a24fbf7682b7090
+      internalID: -229316546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_216
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1663
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9843ccc6a4c5640bfbc55f71c906eb
+      internalID: 2002426305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_217
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1666
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8698ffbf36e3d4648b3bd0b9c4e72b8a
+      internalID: -1887553817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_218
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1600
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75fde3fd43c28f4bb12430c406635f8
+      internalID: -437555529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_219
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1600
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b7a18499dd5d4c93b53f0b032bdbd
+      internalID: 1739822393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_220
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1600
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6352ca0b9f1a47d43b2192dd7144a529
+      internalID: 1878968735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_221
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1536
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5482c35f035e94e94495111cdbf1a3
+      internalID: -1733804023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_222
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1534
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa7f81ce7184534a990bd3bd89a826c
+      internalID: -1394686524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_223
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1538
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d567027ce8246b478c44f5971e2a6d6
+      internalID: -987260143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_224
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1471
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9db699f86c66594cb9b139328568158
+      internalID: 1868324768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_225
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1471
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f656cba30a2f4eb42ac7273a3d560ee7
+      internalID: 1202785682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_226
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1471
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a0480e6b0d3c7488478d922831a282
+      internalID: 1795632875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_227
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1407
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b96a561a7575e45968d26fff8a853d
+      internalID: -1360916105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_228
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1407
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720e496cb777743489dac68730ed577e
+      internalID: -677372997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_229
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1407
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9cbe8275fa1224a849854a8115196e
+      internalID: 1023155279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_230
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1342
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7598a94b43a13134e88222b34ee2a5bb
+      internalID: 405670109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_231
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1342
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032278f8a6468fb49b69d6453379837e
+      internalID: 1457448284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_232
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1344
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3145f026834bf4c994c6d9b8088c0b
+      internalID: 1262695913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_233
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1279
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32cb5721e831c74e9362311d6b69d3e
+      internalID: -595496119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_234
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1279
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7da141156f4c84297bd6d4535110b8
+      internalID: -580717617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_235
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1281
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8027b78442475d45bfe8635aa74bca6
+      internalID: 673286613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_236
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1217
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b61cc40efa68a6468e29ccb3add9442
+      internalID: 1004513575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_237
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1213
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f750b80e90b8d4f4fb0477cc739dea0b
+      internalID: -1339072482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_238
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1213
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea223e67775ad6468ff18a80f6627c1
+      internalID: -1126497795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_239
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1213
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282a38f214772f44a98277e64d7f6496
+      internalID: -799544043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_240
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8f2de1f94907840a27423220686643
+      internalID: -1979546846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_241
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1213
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92065311e1b04f2469fc85eefb7de283
+      internalID: 1978858874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_242
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1213
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58129fbfcb9e02b458d8e150b2218968
+      internalID: -1348216313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_243
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1213
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f7752d8ab0d643872d14251c3d26b
+      internalID: -883997573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_244
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1152
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2565ea2096cb540ab370af218774ff
+      internalID: 299209938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_245
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1150
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24606ab15b821e46a36e3673af732ac
+      internalID: 1263250206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_246
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1150
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc7f833f2d9d364c8624ae08f2b79de
+      internalID: -1719111568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_247
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1155
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe44b19020cecd4095c55d87bf336d6
+      internalID: 1878584204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_248
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58216459ae3dc4248aee620e0685c6ad
+      internalID: -1837058245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_249
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1150
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc20772ab7bd7664fabd947b01b43e84
+      internalID: -1344153199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_250
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1150
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2ac683e914e4a4babad576ec1bee23
+      internalID: -19374042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_251
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1152
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd79f32c9619cb543a617a8f3cdb9b91
+      internalID: -958120236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_252
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1086
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fda36abc04e3284d8a62e249fce7456
+      internalID: 1893581688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_253
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1086
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f822de5b580d248bc30fc66f4f106c
+      internalID: 989651742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_254
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1087
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8172ae09f8af4098ad3eaefb7f908
+      internalID: 651430571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_255
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1090
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a003b2be2a350408161805ca4bd13e
+      internalID: 169192530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_256
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1086
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee8487be6ac26e46874c0ace53053e2
+      internalID: 524721826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_257
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1086
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0346d677b0fe0646b905c8f9e6f66c6
+      internalID: -803663694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_258
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1087
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75abd7ca63edbd45be4052e64452cc7
+      internalID: 527667923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_259
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1090
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6075359fd2ba3c41aa174f61c3921dc
+      internalID: -1668881208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_260
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1023
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92bf046784d1445bc82cfd75d54e6c
+      internalID: 2072246899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_261
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e9e208da476e24fb7b47d24a9c8961
+      internalID: -1062006438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_262
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1023
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd0c6f6abf7f074297da92e6b5f83c8
+      internalID: -1526420275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_263
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1027
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9125bce8072e9dd4689deb9b33580142
+      internalID: -1518661256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_264
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1023
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f92dce1d4d91948905cb7aaf322326
+      internalID: -913816229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_265
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0227d4b13b5a244aa87a194d70123f7
+      internalID: -59561500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_266
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1023
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e10a5cd804c440987d5e5ea214483
+      internalID: -1983384794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_267
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1025
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94278567268143488320ce57943a5d4
+      internalID: 240853810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_268
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 960
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5800a57d10523a84ab28e405e371cd89
+      internalID: -1692105588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_269
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 960
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68088d2a0a467141b8807e6dffb763a
+      internalID: 1582031533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_270
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 894
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755ab10d9ce8cbe4a822c328e6b71468
+      internalID: 254018078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_271
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 894
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac546617f1e03c549ad9bebfa3c0e18c
+      internalID: -587073430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_272
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 831
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66050ca1df92993419d17911669f001a
+      internalID: -738341624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_273
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 831
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf45d50d46e2594eacb299a2fda24e9
+      internalID: 1897069748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_274
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 767
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1f004cbb476b4f9108171e58aa60a
+      internalID: 1880725056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_275
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 767
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9516a60440616f842bcb365f673391cc
+      internalID: 1369815237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_276
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 702
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de69559e513fc248b0c04e1937ebba7
+      internalID: -1444199102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_277
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 704
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f886c7d3e8e07c4d8212074491c4698
+      internalID: -2037935316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_278
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 704
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aee790e376c5d48a4499b464f47476
+      internalID: -1505338673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_279
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 704
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d2d8d935104e419fb0140cd4082ea
+      internalID: 1453441447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_280
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 704
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c35a9ed8abdc17409a6eae2592b0252
+      internalID: 126460244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_281
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 704
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c2fc71e19f0774dbf8cabe495bcdf0
+      internalID: 2110967432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_282
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 704
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a0b075577abb44ea755e38f50924ec
+      internalID: -1362352901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_283
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 704
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8416f73d83da49b00a7791c2c3348
+      internalID: -490944924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_284
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 704
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67abc93251472441a039ff207b8771a
+      internalID: -1840732202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_285
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 704
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe01cd3d037bbb4d9ee6a7f1895455c
+      internalID: -903665854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_286
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 704
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badc4eabbbf57544f8f52b2d48f3cb22
+      internalID: 1388802443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_287
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 704
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa1b03ed48e52247876faa1a341fa8b
+      internalID: -156484296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_288
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 704
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab71e28ccb319874a8e5ccaefb0d24c0
+      internalID: -1185838221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_289
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 639
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211842c2331212642ad8f3429c685e31
+      internalID: -1610292558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_290
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 639
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d34b7f1a58b1a74892d18a4eb2bd596
+      internalID: 1699292313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_291
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 639
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536eb9bf0e2b5574f857274cb86ea491
+      internalID: 1469482977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_292
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 639
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee098f1e75fa89a4aa272d98de08d0c8
+      internalID: -1194981546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_293
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 639
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f445fe563788794cbb93086831850c8
+      internalID: -1274679800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_294
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 639
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413b362a730b48e48a936fb082459e42
+      internalID: -870111205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_295
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 639
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55df8df15bc432645b44d15be4b76c69
+      internalID: 80291811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_296
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8847b046f314bdd418e8d00a27e3db1d
+      internalID: 1581479568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_297
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 639
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2591b96ceccbfa54cb72787d02ca9869
+      internalID: -1682167768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_298
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 639
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d712741bce5e5094c8731767e2be9a7e
+      internalID: -179673033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_299
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 639
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777af1c1713958449730e7a8b842dd3
+      internalID: -909463469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_300
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 639
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8996ecdbfd3514ea6566242debba22
+      internalID: -1722870674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_301
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 639
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ff8d3cedf1184fa0b5165383a0ef4
+      internalID: 1550549229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_302
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 575
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ae474f6b0e3d408e3bb54b5ce4880
+      internalID: 2038630863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_303
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 575
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8f548a04dcefb4d9ac79fac4a98676
+      internalID: -1148798022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_304
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 575
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122601464aab63a4d82604f881fb4fd3
+      internalID: 1926252160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_305
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 575
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01c58cfc58ae64499ced8dc61ec5b2f
+      internalID: -1998848192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_306
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 575
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c76121854a1d4bbe87d1d665fc3c3
+      internalID: 1156076149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_307
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 575
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac49e9fde2e8745a2ccdbb6eac2b6e
+      internalID: -1414889031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_308
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 575
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4858642cbe8dc46a18cf792f9f3621
+      internalID: 1408863467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_309
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 575
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bf0929c18ded84ea3acc8ed87280fa
+      internalID: -1675110048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_310
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 575
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85465c9a8570b2249b0bf6ba8b55ab0f
+      internalID: -19950723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_311
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 575
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce759ef90eb1b146be477ecb15c1f7e
+      internalID: -532581820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_312
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 575
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7c7b0e67374f5489c390e322035300
+      internalID: 1014654616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_313
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 575
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dba6244d167d146a4204b444e1e6b5
+      internalID: 590968104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_314
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 575
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806901cd4405d64b9869b1e3d72c1c3
+      internalID: -337311883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_315
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 510
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc685f60c2e48448b02d99ff05b34fd
+      internalID: -956352575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_316
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 510
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0aecb7b14073547ab4656291817aa4
+      internalID: 1424043025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_317
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 512
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71334f87fe2ca2b4f9a97053aea88ae4
+      internalID: -191479419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_318
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 512
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9897e3655bfd146abae8d2d576b9cd
+      internalID: -1144759064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_319
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 512
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becefa7a34535574f9a063ed8b7235ab
+      internalID: 337748095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_320
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4d8c3c49cf85945923f65e2022b37f
+      internalID: -171326208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_321
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 510
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f9cb4a27cbcf74096c522a8eb039d5
+      internalID: 578163172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_322
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 512
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1317b6ed9849c54b94ae1312d33a95b
+      internalID: 909402218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_323
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 510
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c6ac704e3a8f40b2898d858ff07bf
+      internalID: -174224332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_324
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 512
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6249f8fc1ac6d3e40989060d974c6f12
+      internalID: -1801949938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_325
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 512
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da8c19e950e9f24da8d1d79db411d37
+      internalID: 1784939202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_326
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 512
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920132f6aaad44b47a4bb752e77cce68
+      internalID: 1816570490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_327
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 512
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1404108cf9b5e44ad718596dced475
+      internalID: -930139361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_328
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 447
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd53856010e9cd4facf4e41f637db4a
+      internalID: -1188802842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_329
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0639bcf040a260a479a0fe9cf81087c1
+      internalID: 1469397288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_330
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 449
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d79af97b31a4d548bc94b463e35a925
+      internalID: 848351589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_331
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 450
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee0e2f8157debf45a56eb0e0954ad4d
+      internalID: -1080879697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_332
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 450
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a454eac1083d104b9111357d77c5a91
+      internalID: 418679046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_333
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 448
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d142cb371a9e089458af4ea70215a5d3
+      internalID: -1426500999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_334
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 383
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91feb8a533259c49971d77490561c8a
+      internalID: 1538919222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_335
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 383
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63318a06d3fec6441933c2b8ae5fbc81
+      internalID: 1112791252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_336
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 383
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a333e6375fc082448dd6af7460f3155
+      internalID: -1222912352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_337
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3903baf47923f344ac2151e7837b0a0
+      internalID: 40788453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_338
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 383
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eb6062b8228db4fb596c4be5640f47
+      internalID: 972797900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_339
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 383
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0146f67389832449d280c2472261d0
+      internalID: -768353421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_340
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 318
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd2aa0c14643046b322841152b6271
+      internalID: 662475545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_341
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf863722adf4a4587ac036f43f9a56
+      internalID: -548265163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_342
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 318
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1744599fcd1904897822d370e2c7f9
+      internalID: 1033319056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_343
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 318
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f7498d289a8e46931aacebae3ecbb
+      internalID: 1469375436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_344
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 318
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56605f3b4839e0e4b91054dfa5bd7657
+      internalID: -343241240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_345
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 318
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c858799c4ae9654db388a33ff09b9d7
+      internalID: -811550638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_346
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 255
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa650b59d417b84bb866cbea0f33bb8
+      internalID: 1981042281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_347
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5311da9f876f97c45bd3b47226536b74
+      internalID: -1625939742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_348
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 256
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3d1d0f0b91eaa40ae7a93562ad0e1d
+      internalID: 1088772979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_349
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 256
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e6fb358b2c814cb9b2e26e15d31f2
+      internalID: -2146652522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_350
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 256
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57661bb27bdc9dd44b9221a3b1c38703
+      internalID: -1122927511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_351
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 255
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dc7e10ee29f1645acb812f62a976cb
+      internalID: -1267169191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_352
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 191
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cecaea5dacbbc43a617b3a8cd1b73e
+      internalID: -144043974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_353
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 191
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d0fea1c72ae1458ca94675769db6f
+      internalID: -574165483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_354
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 126
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a12dce526f582a44b79825966a25595
+      internalID: -1363933724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_355
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 126
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24aff69c5b981743bd1e86ade3b2854
+      internalID: -2135255815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_356
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 63
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477fd86df9331d5418354403ff759694
+      internalID: 1051481049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_357
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 63
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d982861510174bb3989c3b1561c33
+      internalID: 122434941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_358
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef21f2e2e77fb498cae9e1e48f986e
+      internalID: 108177219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SickOldMan_359
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5e8bf039c49a84c89f4e84b1ab3f17
+      internalID: 1556592778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SickOldMan_0: -903300750
+      SickOldMan_1: 1965139920
+      SickOldMan_10: -437996945
+      SickOldMan_100: 337366955
+      SickOldMan_101: -279335217
+      SickOldMan_102: 2108280277
+      SickOldMan_103: -446950194
+      SickOldMan_104: 1172508810
+      SickOldMan_105: 585878729
+      SickOldMan_106: 60432263
+      SickOldMan_107: -184569399
+      SickOldMan_108: 116254397
+      SickOldMan_109: 92329271
+      SickOldMan_11: 166944137
+      SickOldMan_110: -856117326
+      SickOldMan_111: 1204747401
+      SickOldMan_112: 1551324060
+      SickOldMan_113: -1701564244
+      SickOldMan_114: 928227443
+      SickOldMan_115: -1858696895
+      SickOldMan_116: -39880002
+      SickOldMan_117: -914171471
+      SickOldMan_118: -1711568774
+      SickOldMan_119: 291137302
+      SickOldMan_12: 1830926027
+      SickOldMan_120: -28349040
+      SickOldMan_121: 1114932670
+      SickOldMan_122: 269699648
+      SickOldMan_123: -1670742291
+      SickOldMan_124: 198615955
+      SickOldMan_125: -775632309
+      SickOldMan_126: 139451103
+      SickOldMan_127: -1527302205
+      SickOldMan_128: -402982909
+      SickOldMan_129: 237841582
+      SickOldMan_13: 1458189431
+      SickOldMan_130: -1842213897
+      SickOldMan_131: -900940626
+      SickOldMan_132: -1438995691
+      SickOldMan_133: 1010041838
+      SickOldMan_134: 1941623962
+      SickOldMan_135: 501528301
+      SickOldMan_136: -1431159124
+      SickOldMan_137: -1188781131
+      SickOldMan_138: 865696761
+      SickOldMan_139: 244554839
+      SickOldMan_14: -111354720
+      SickOldMan_140: 1682600052
+      SickOldMan_141: 525852212
+      SickOldMan_142: 526577134
+      SickOldMan_143: -2070020814
+      SickOldMan_144: 10994399
+      SickOldMan_145: -1056227286
+      SickOldMan_146: 2031991709
+      SickOldMan_147: 19130689
+      SickOldMan_148: 546219645
+      SickOldMan_149: 1605437360
+      SickOldMan_15: -1233977298
+      SickOldMan_150: -448704718
+      SickOldMan_151: -872372466
+      SickOldMan_152: 517596062
+      SickOldMan_153: 698644026
+      SickOldMan_154: -795600212
+      SickOldMan_155: 188664417
+      SickOldMan_156: 1988023003
+      SickOldMan_157: 36415808
+      SickOldMan_158: -457730617
+      SickOldMan_159: 441823598
+      SickOldMan_16: -480650605
+      SickOldMan_160: 1894595695
+      SickOldMan_161: -1182280369
+      SickOldMan_162: 1522948975
+      SickOldMan_163: 444900271
+      SickOldMan_164: -1072535798
+      SickOldMan_165: -130066862
+      SickOldMan_166: -881097302
+      SickOldMan_167: 1671976713
+      SickOldMan_168: -874703310
+      SickOldMan_169: -1986501366
+      SickOldMan_17: 1578124775
+      SickOldMan_170: 1805815708
+      SickOldMan_171: 843092934
+      SickOldMan_172: -1488193533
+      SickOldMan_173: 1965933839
+      SickOldMan_174: -991910779
+      SickOldMan_175: 426401337
+      SickOldMan_176: 1940548661
+      SickOldMan_177: -589051156
+      SickOldMan_178: -1774202872
+      SickOldMan_179: 1559286480
+      SickOldMan_18: 176877549
+      SickOldMan_180: 1808590785
+      SickOldMan_181: -623592955
+      SickOldMan_182: 1631119651
+      SickOldMan_183: -406807589
+      SickOldMan_184: 622589058
+      SickOldMan_185: -867280165
+      SickOldMan_186: 345510888
+      SickOldMan_187: 1622795177
+      SickOldMan_188: -927017706
+      SickOldMan_189: -783441908
+      SickOldMan_19: 326685146
+      SickOldMan_190: 1443223051
+      SickOldMan_191: -1078843562
+      SickOldMan_192: 1512554608
+      SickOldMan_193: 178140260
+      SickOldMan_194: -725670165
+      SickOldMan_195: -1731562742
+      SickOldMan_196: -1298812562
+      SickOldMan_197: 1015728180
+      SickOldMan_198: 2051895808
+      SickOldMan_199: 627378499
+      SickOldMan_2: 2134436284
+      SickOldMan_20: -4015012
+      SickOldMan_200: 872153476
+      SickOldMan_201: -1412856809
+      SickOldMan_202: 1259849090
+      SickOldMan_203: -609444303
+      SickOldMan_204: -1294662963
+      SickOldMan_205: 836608019
+      SickOldMan_206: -319635720
+      SickOldMan_207: 2551602
+      SickOldMan_208: -1278231308
+      SickOldMan_209: -652005602
+      SickOldMan_21: -1252428370
+      SickOldMan_210: 2094354029
+      SickOldMan_211: -751502541
+      SickOldMan_212: 1550588963
+      SickOldMan_213: 1060129436
+      SickOldMan_214: -1305787817
+      SickOldMan_215: -229316546
+      SickOldMan_216: 2002426305
+      SickOldMan_217: -1887553817
+      SickOldMan_218: -437555529
+      SickOldMan_219: 1739822393
+      SickOldMan_22: -998898215
+      SickOldMan_220: 1878968735
+      SickOldMan_221: -1733804023
+      SickOldMan_222: -1394686524
+      SickOldMan_223: -987260143
+      SickOldMan_224: 1868324768
+      SickOldMan_225: 1202785682
+      SickOldMan_226: 1795632875
+      SickOldMan_227: -1360916105
+      SickOldMan_228: -677372997
+      SickOldMan_229: 1023155279
+      SickOldMan_23: -1342387635
+      SickOldMan_230: 405670109
+      SickOldMan_231: 1457448284
+      SickOldMan_232: 1262695913
+      SickOldMan_233: -595496119
+      SickOldMan_234: -580717617
+      SickOldMan_235: 673286613
+      SickOldMan_236: 1004513575
+      SickOldMan_237: -1339072482
+      SickOldMan_238: -1126497795
+      SickOldMan_239: -799544043
+      SickOldMan_24: 1208533714
+      SickOldMan_240: -1979546846
+      SickOldMan_241: 1978858874
+      SickOldMan_242: -1348216313
+      SickOldMan_243: -883997573
+      SickOldMan_244: 299209938
+      SickOldMan_245: 1263250206
+      SickOldMan_246: -1719111568
+      SickOldMan_247: 1878584204
+      SickOldMan_248: -1837058245
+      SickOldMan_249: -1344153199
+      SickOldMan_25: 1253352960
+      SickOldMan_250: -19374042
+      SickOldMan_251: -958120236
+      SickOldMan_252: 1893581688
+      SickOldMan_253: 989651742
+      SickOldMan_254: 651430571
+      SickOldMan_255: 169192530
+      SickOldMan_256: 524721826
+      SickOldMan_257: -803663694
+      SickOldMan_258: 527667923
+      SickOldMan_259: -1668881208
+      SickOldMan_26: 866912710
+      SickOldMan_260: 2072246899
+      SickOldMan_261: -1062006438
+      SickOldMan_262: -1526420275
+      SickOldMan_263: -1518661256
+      SickOldMan_264: -913816229
+      SickOldMan_265: -59561500
+      SickOldMan_266: -1983384794
+      SickOldMan_267: 240853810
+      SickOldMan_268: -1692105588
+      SickOldMan_269: 1582031533
+      SickOldMan_27: -1757936855
+      SickOldMan_270: 254018078
+      SickOldMan_271: -587073430
+      SickOldMan_272: -738341624
+      SickOldMan_273: 1897069748
+      SickOldMan_274: 1880725056
+      SickOldMan_275: 1369815237
+      SickOldMan_276: -1444199102
+      SickOldMan_277: -2037935316
+      SickOldMan_278: -1505338673
+      SickOldMan_279: 1453441447
+      SickOldMan_28: -1868652058
+      SickOldMan_280: 126460244
+      SickOldMan_281: 2110967432
+      SickOldMan_282: -1362352901
+      SickOldMan_283: -490944924
+      SickOldMan_284: -1840732202
+      SickOldMan_285: -903665854
+      SickOldMan_286: 1388802443
+      SickOldMan_287: -156484296
+      SickOldMan_288: -1185838221
+      SickOldMan_289: -1610292558
+      SickOldMan_29: 614374575
+      SickOldMan_290: 1699292313
+      SickOldMan_291: 1469482977
+      SickOldMan_292: -1194981546
+      SickOldMan_293: -1274679800
+      SickOldMan_294: -870111205
+      SickOldMan_295: 80291811
+      SickOldMan_296: 1581479568
+      SickOldMan_297: -1682167768
+      SickOldMan_298: -179673033
+      SickOldMan_299: -909463469
+      SickOldMan_3: 108903295
+      SickOldMan_30: 385948135
+      SickOldMan_300: -1722870674
+      SickOldMan_301: 1550549229
+      SickOldMan_302: 2038630863
+      SickOldMan_303: -1148798022
+      SickOldMan_304: 1926252160
+      SickOldMan_305: -1998848192
+      SickOldMan_306: 1156076149
+      SickOldMan_307: -1414889031
+      SickOldMan_308: 1408863467
+      SickOldMan_309: -1675110048
+      SickOldMan_31: 200306327
+      SickOldMan_310: -19950723
+      SickOldMan_311: -532581820
+      SickOldMan_312: 1014654616
+      SickOldMan_313: 590968104
+      SickOldMan_314: -337311883
+      SickOldMan_315: -956352575
+      SickOldMan_316: 1424043025
+      SickOldMan_317: -191479419
+      SickOldMan_318: -1144759064
+      SickOldMan_319: 337748095
+      SickOldMan_32: -1535304561
+      SickOldMan_320: -171326208
+      SickOldMan_321: 578163172
+      SickOldMan_322: 909402218
+      SickOldMan_323: -174224332
+      SickOldMan_324: -1801949938
+      SickOldMan_325: 1784939202
+      SickOldMan_326: 1816570490
+      SickOldMan_327: -930139361
+      SickOldMan_328: -1188802842
+      SickOldMan_329: 1469397288
+      SickOldMan_33: -632073841
+      SickOldMan_330: 848351589
+      SickOldMan_331: -1080879697
+      SickOldMan_332: 418679046
+      SickOldMan_333: -1426500999
+      SickOldMan_334: 1538919222
+      SickOldMan_335: 1112791252
+      SickOldMan_336: -1222912352
+      SickOldMan_337: 40788453
+      SickOldMan_338: 972797900
+      SickOldMan_339: -768353421
+      SickOldMan_34: 1214145527
+      SickOldMan_340: 662475545
+      SickOldMan_341: -548265163
+      SickOldMan_342: 1033319056
+      SickOldMan_343: 1469375436
+      SickOldMan_344: -343241240
+      SickOldMan_345: -811550638
+      SickOldMan_346: 1981042281
+      SickOldMan_347: -1625939742
+      SickOldMan_348: 1088772979
+      SickOldMan_349: -2146652522
+      SickOldMan_35: -1732717375
+      SickOldMan_350: -1122927511
+      SickOldMan_351: -1267169191
+      SickOldMan_352: -144043974
+      SickOldMan_353: -574165483
+      SickOldMan_354: -1363933724
+      SickOldMan_355: -2135255815
+      SickOldMan_356: 1051481049
+      SickOldMan_357: 122434941
+      SickOldMan_358: 108177219
+      SickOldMan_359: 1556592778
+      SickOldMan_36: -1739372429
+      SickOldMan_37: -257851896
+      SickOldMan_38: 1962853330
+      SickOldMan_39: 1044029587
+      SickOldMan_4: -1694310801
+      SickOldMan_40: 2141797272
+      SickOldMan_41: -160439886
+      SickOldMan_42: 59062814
+      SickOldMan_43: 1608780802
+      SickOldMan_44: -1237900121
+      SickOldMan_45: -1058967401
+      SickOldMan_46: 812660269
+      SickOldMan_47: 1127523008
+      SickOldMan_48: -811985123
+      SickOldMan_49: -1534478732
+      SickOldMan_5: 1612900272
+      SickOldMan_50: -909446431
+      SickOldMan_51: -1255361188
+      SickOldMan_52: 765661688
+      SickOldMan_53: 363073562
+      SickOldMan_54: -1162049562
+      SickOldMan_55: -1067659064
+      SickOldMan_56: -1182612780
+      SickOldMan_57: 1190006986
+      SickOldMan_58: 359136501
+      SickOldMan_59: -1484084263
+      SickOldMan_6: -1754573182
+      SickOldMan_60: 1264773832
+      SickOldMan_61: -923654668
+      SickOldMan_62: -2015638396
+      SickOldMan_63: 871589433
+      SickOldMan_64: -486775987
+      SickOldMan_65: 1576156146
+      SickOldMan_66: -745586703
+      SickOldMan_67: 582763045
+      SickOldMan_68: 462323998
+      SickOldMan_69: -665671751
+      SickOldMan_7: -2083947673
+      SickOldMan_70: 1646373103
+      SickOldMan_71: 850219898
+      SickOldMan_72: 1355921109
+      SickOldMan_73: 1228103756
+      SickOldMan_74: -1027911497
+      SickOldMan_75: 235094082
+      SickOldMan_76: 890967146
+      SickOldMan_77: -898279071
+      SickOldMan_78: 265698788
+      SickOldMan_79: -327447915
+      SickOldMan_8: 561104726
+      SickOldMan_80: 1562995124
+      SickOldMan_81: -1714279938
+      SickOldMan_82: 1526890934
+      SickOldMan_83: -508385080
+      SickOldMan_84: -1118889819
+      SickOldMan_85: 1556449944
+      SickOldMan_86: -1699571088
+      SickOldMan_87: 1827924100
+      SickOldMan_88: 524584336
+      SickOldMan_89: 1279565171
+      SickOldMan_9: 1604694052
+      SickOldMan_90: 2048872767
+      SickOldMan_91: 2023548047
+      SickOldMan_92: 1934744133
+      SickOldMan_93: 911237638
+      SickOldMan_94: 1670837592
+      SickOldMan_95: 1815503095
+      SickOldMan_96: 1695159050
+      SickOldMan_97: -1878650173
+      SickOldMan_98: 992419213
+      SickOldMan_99: -302722855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

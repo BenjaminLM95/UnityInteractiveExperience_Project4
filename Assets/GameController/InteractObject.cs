@@ -21,19 +21,27 @@ public class InteractObject : MonoBehaviour
         Apple,
         Cheese,
         Fish,
+        Potato,
         Gem
     }
 
-    public DialogueManagement dialogueManager = null ; 
+    public DialogueManagement dialogueManager = null ;
+    public QuestManager questManager = null;
 
     [Header("Type of Interaction")]
     public InterType type;
+
+    [Header("Type of PickUp")]
+    public TypePickUp _typePickUp;
 
     [Header("Info Message")]
     public string infoMessage;
 
     [Header("Dialogue")]
-    [TextArea] public string[] sentences; 
+    [TextArea] public string[] sentences;
+
+    [Header("Dialogue2")]
+    [TextArea] public string[] sentences2; 
 
     public TextMeshProUGUI infoText = null;
 
@@ -54,7 +62,12 @@ public class InteractObject : MonoBehaviour
 
         dialogueManager = GameObject.FindObjectOfType<DialogueManagement>();
 
-        playerInventory = GameObject.FindObjectOfType<Inventory>(); 
+        playerInventory = GameObject.FindObjectOfType<Inventory>();
+
+        questManager = GameObject.FindObjectOfType<QuestManager>(); 
+
+        if(_typePickUp == null)
+            _typePickUp = TypePickUp.None;
     }
     
 
@@ -92,6 +105,7 @@ public class InteractObject : MonoBehaviour
     public void PickUp() 
     {
         Debug.Log("Picking up object" + gameObject.name);
+        playerInventory.AddToInventory(_typePickUp.ToString()); 
         this.gameObject.SetActive(false); 
     }
 
@@ -105,8 +119,11 @@ public class InteractObject : MonoBehaviour
     }
 
     public void Dialogue() 
-    {       
-        dialogueManager.StartDialogue(sentences);
+    { 
+        if(questManager.task1)
+        dialogueManager.StartDialogue(sentences2);
+        else
+            dialogueManager.StartDialogue(sentences);
     }
     
 
@@ -132,6 +149,7 @@ public class InteractObject : MonoBehaviour
                 break;
             case TypePickUp.Gem:
                 //Add Gem;
+                Debug.Log("Gem"); 
                 break; 
         }
     }

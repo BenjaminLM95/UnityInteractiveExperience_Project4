@@ -22,7 +22,7 @@ public class Task : MonoBehaviour
     public TaskProgression progress; 
     public bool assigned;
     public bool completed;
-    private string instructions; 
+    public string instructions; 
 
     // Start is called before the first frame update
     void Start()
