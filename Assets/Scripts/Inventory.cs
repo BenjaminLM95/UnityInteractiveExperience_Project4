@@ -16,6 +16,7 @@ public class Inventory : MonoBehaviour
     public int currentNFish;
     public int nPotato;
     public int currentPotato;
+    public bool fishingRod; 
 
     public TextMeshProUGUI inventoryDisplay = new TextMeshProUGUI(); 
     // Start is called before the first frame update
@@ -48,7 +49,7 @@ public class Inventory : MonoBehaviour
         switch (typeItem)
         {
             case "Apple":
-                currentNFish++; 
+                currentNApple++; 
                 break;
             case "Cheese":
                 currentNCheese++;

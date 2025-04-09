@@ -170,6 +170,7 @@ Transform:
   - {fileID: 792533313}
   - {fileID: 782473481}
   - {fileID: 949759981}
+  - {fileID: 610847053}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &69227772
@@ -244,7 +245,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -350,6 +351,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173842862}
   m_CullTransparentMesh: 1
+--- !u!1 &188692887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188692891}
+  - component: {fileID: 188692890}
+  - component: {fileID: 188692889}
+  - component: {fileID: 188692888}
+  m_Layer: 0
+  m_Name: Seaborders (1)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &188692888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188692887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 3
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!114 &188692889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188692887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af2275d38d1c4e44bc8b998d32d3ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &188692890
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188692887}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.3787651, y: -2.046605}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0340767, y: 3.111229}
+  m_EdgeRadius: 0
+--- !u!4 &188692891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188692887}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.69, y: 13.05, z: -0.010731661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &230743824
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,10 +626,11 @@ MonoBehaviour:
   _typePickUp: 5
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!1 &306379197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,10 +4747,11 @@ MonoBehaviour:
   _typePickUp: 0
   infoMessage: Hello
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &452980773
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5816,6 +5933,107 @@ Transform:
   - {fileID: 550161304}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &569487306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569487309}
+  - component: {fileID: 569487308}
+  - component: {fileID: 569487307}
+  m_Layer: 0
+  m_Name: AppleTree (1)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &569487307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569487306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 1
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!61 &569487308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569487306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.054769993, y: 0.041077614}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3286238, y: 2.3966484}
+  m_EdgeRadius: 0
+--- !u!4 &569487309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569487306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.71, y: 17.02, z: 0.029619662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &610847050
 GameObject:
   m_ObjectHideFlags: 0
@@ -5877,12 +6095,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610847050}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.860221, y: -2.889159, z: -0.045500115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 5991082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -6105,10 +6323,11 @@ MonoBehaviour:
   _typePickUp: 0
   infoMessage: Castle, Due West
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!1 &782473477
 GameObject:
   m_ObjectHideFlags: 0
@@ -6224,6 +6443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792533313}
   - component: {fileID: 792533312}
+  - component: {fileID: 792533314}
   m_Layer: 0
   m_Name: QuestManager
   m_TagString: Untagged
@@ -6243,11 +6463,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c7e9c668b0c824796d9a6bfb6a92bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tasks: []
+  _task01:
+    progress: 0
+    assigned: 0
+    completed: 0
+    instructions: 
+  _task02:
+    progress: 0
+    assigned: 0
+    completed: 0
+    instructions: 
+  _task03:
+    progress: 0
+    assigned: 0
+    completed: 0
+    instructions: 
+  _task04:
+    progress: 0
+    assigned: 0
+    completed: 0
+    instructions: 
+  _task05:
+    progress: 0
+    assigned: 0
+    completed: 0
+    instructions: 
+  taskProgression: 
+  taskAssigned: 0
+  taskCompleted: 0
   _playerInventory: {fileID: 1473914408}
-  task1: 0
-  Quest01: 0
-  Num: 0
+  talkFisherman: 0
 --- !u!4 &792533313
 Transform:
   m_ObjectHideFlags: 0
@@ -6263,6 +6508,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5991082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &792533314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792533311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7294ec495dc952b4f92e66ca255c771e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SickOldManDialogueTask01InProgress:
+  - Find the Chef and he will know what to do. *Cough* *Cough*
+  - I want my soup...
+  TheChefDialogueTask01InProgress:
+  - What!? The old man is sick? So, he needs a soup.
+  - 'I don''t have the ingredients. Can you please collect them? '
+  - 'I need 3 potatoes, 3 apples and 4 piece of cheese. '
+  - 'You can find the pieces of cheese in my basement. The others two look around
+    outside. '
+  TheChefDialogueTask02InProgress:
+  - 'I need 3 potatoes, 3 apples and 4 piece of cheese. '
+  - 'You can find the pieces of cheese in my basement. The others two look around
+    outside. '
+  TheChefDialogueTask02Completed:
+  - Did you get the ingredients? Let me see...
+  - '3 Potatoes, 3 apples, 4 pieces of cheese... Yeah. It all in there. '
+  - 'Oh no... I don''t have a fish. I thought I had one. This is the missing ingredient
+    and the most important. '
+  - 'Can you go to the see and catch a fish, please. '
+  - 'Mmm...? You say you don''t have a fishing rod. Go to the tend that is in the
+    north, there is a guy who will lend you one. I count on you! '
+  TheChefDialogueTask03Assigned:
+  - Go north on the beach. You will find a tent nearby. Talk to the fisherman
+  TheChefDialogueTask03Completed:
+  - Did you catch a fish? Great.
+  - Now I can make the soup. You have to wait a little longer.
+  - In the meanwhile, go outside and breath fresh air
+  FishermanDialogueTask02Completed:
+  - 'Hey dude!! How''s it going? '
+  - You want to catch a fish? That's awesome!!
+  - 'What? You don''t have a fishing rod? I can lend you one. No problem. '
+  - 'You only have to go to the borders of the sea and use the interactable button.
+    You''ll catch one for sure! '
+  FishermanDialogueTask03Assigned:
+  - Haven't caught a fish yet?
+  - 'When you leave, go right to the sea and press ''E''. '
+  FishermanDialogueTask03Completed:
+  - 'Hey Dude!! Haven''t caught a fish yet? '
+  - 'Wait. You caught one! NICE! '
+  - 'You can keep the fishing rod for a while if you want. You might catch another
+    fish. '
 --- !u!1 &801739499
 GameObject:
   m_ObjectHideFlags: 0
@@ -6402,10 +6700,11 @@ MonoBehaviour:
   _typePickUp: 4
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!1 &864905221
 GameObject:
   m_ObjectHideFlags: 0
@@ -31163,6 +31462,107 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5991082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1032265036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032265039}
+  - component: {fileID: 1032265038}
+  - component: {fileID: 1032265037}
+  m_Layer: 0
+  m_Name: AppleTree (2)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1032265037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032265036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 1
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!61 &1032265038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032265036}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.054769993, y: 0.041077614}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3286238, y: 2.3966484}
+  m_EdgeRadius: 0
+--- !u!4 &1032265039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032265036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.29, y: 17.02, z: 0.029619662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1079369382
 GameObject:
   m_ObjectHideFlags: 0
@@ -31361,6 +31761,107 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1113328576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113328579}
+  - component: {fileID: 1113328578}
+  - component: {fileID: 1113328577}
+  m_Layer: 0
+  m_Name: AppleTree
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1113328577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113328576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 1
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!61 &1113328578
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113328576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.054769993, y: 0.041077614}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3286238, y: 2.3966484}
+  m_EdgeRadius: 0
+--- !u!4 &1113328579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113328576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.64, y: 14, z: 0.029619662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181817290
 GameObject:
   m_ObjectHideFlags: 0
@@ -31598,6 +32099,221 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1361064269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361064272}
+  - component: {fileID: 1361064271}
+  - component: {fileID: 1361064270}
+  m_Layer: 0
+  m_Name: AppleTree (3)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1361064270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361064269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 1
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!61 &1361064271
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361064269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.054769993, y: 0.041077614}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3286238, y: 2.3966484}
+  m_EdgeRadius: 0
+--- !u!4 &1361064272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361064269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.6, y: 18.96, z: 0.029619662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1386682427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1386682431}
+  - component: {fileID: 1386682430}
+  - component: {fileID: 1386682429}
+  - component: {fileID: 1386682428}
+  m_Layer: 0
+  m_Name: Seaborders (3)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1386682428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386682427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 3
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!114 &1386682429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386682427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af2275d38d1c4e44bc8b998d32d3ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1386682430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386682427}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.2099361, y: -2.563642}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.9729729, y: 2.077155}
+  m_EdgeRadius: 0
+--- !u!4 &1386682431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386682427}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.28, y: -7.37, z: -0.010731661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391346605
 GameObject:
   m_ObjectHideFlags: 0
@@ -31639,10 +32355,11 @@ MonoBehaviour:
   - Me again? I am a different gnome.
   - If you want to go to the castle, head west.
   - However, there are rocks blocking the way. You cannot go there yet.
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &1391346607
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31906,10 +32623,11 @@ MonoBehaviour:
   _typePickUp: 5
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!1 &1438031664
 GameObject:
   m_ObjectHideFlags: 0
@@ -31984,8 +32702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2155ab0b8e3522a47ba64469f6a56fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
-  spawnPoint: 
+  sceneName: House3
+  spawnPoint: SpawnPoint4S
 --- !u!61 &1461246880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32118,10 +32836,11 @@ MonoBehaviour:
   _typePickUp: 4
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!212 &1467176695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32279,6 +32998,7 @@ MonoBehaviour:
   currentNFish: 0
   nPotato: 0
   currentPotato: 0
+  fishingRod: 0
   inventoryDisplay: {fileID: 1079369383}
 --- !u!1 &1532421929
 GameObject:
@@ -32455,10 +33175,11 @@ MonoBehaviour:
   _typePickUp: 4
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!212 &1546313464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32705,11 +33426,11 @@ MonoBehaviour:
   - Hello young one. Are you exploring this field? There are cool gems here.
   - There is a castle nearby, but I cannot remember where it is.
   - I think I wrote where it is in a sign? I can't remember well.
-  sentences2:
-  - Potato!!
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &1700133255
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33197,10 +33918,11 @@ MonoBehaviour:
   _typePickUp: 0
   infoMessage: Collect all the gems
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &1866733432
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33303,6 +34025,234 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962652483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962652487}
+  - component: {fileID: 1962652486}
+  - component: {fileID: 1962652485}
+  - component: {fileID: 1962652484}
+  m_Layer: 0
+  m_Name: Seaborders (2)
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1962652484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962652483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 3
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!114 &1962652485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962652483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af2275d38d1c4e44bc8b998d32d3ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1962652486
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962652483}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.007036, y: -10.750057}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3787727, y: 18.449982}
+  m_EdgeRadius: 0
+--- !u!4 &1962652487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962652483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 35.83, y: 10.98, z: -0.010731661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1968764385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968764389}
+  - component: {fileID: 1968764388}
+  - component: {fileID: 1968764387}
+  - component: {fileID: 1968764386}
+  m_Layer: 0
+  m_Name: Seaborders
+  m_TagString: InteractObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1968764386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968764385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c321f5b7d575418a64f09bc7b1db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
+  questManager: {fileID: 0}
+  type: 2
+  _typePickUp: 3
+  infoMessage: 
+  sentences: []
+  infoText: {fileID: 0}
+  isTextDisplayed: 0
+  playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
+--- !u!114 &1968764387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968764385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af2275d38d1c4e44bc8b998d32d3ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1968764388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968764385}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.8527145, y: -0.4308648}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.705429, y: 8.497029}
+  m_EdgeRadius: 0
+--- !u!4 &1968764389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968764385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.22, y: 17.234255, z: -0.010731661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2003231387
 GameObject:
   m_ObjectHideFlags: 0
@@ -33375,10 +34325,11 @@ MonoBehaviour:
   _typePickUp: 4
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!212 &2003231390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33587,7 +34538,6 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1438031666}
   - {fileID: 551965046}
-  - {fileID: 610847053}
   - {fileID: 1433957377}
   - {fileID: 230743828}
   - {fileID: 1700133257}
@@ -33606,3 +34556,11 @@ SceneRoots:
   - {fileID: 306379200}
   - {fileID: 69227776}
   - {fileID: 1461246881}
+  - {fileID: 1113328579}
+  - {fileID: 569487309}
+  - {fileID: 1032265039}
+  - {fileID: 1361064272}
+  - {fileID: 1968764389}
+  - {fileID: 188692891}
+  - {fileID: 1962652487}
+  - {fileID: 1386682431}

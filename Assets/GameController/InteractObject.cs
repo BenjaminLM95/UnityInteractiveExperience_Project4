@@ -39,15 +39,17 @@ public class InteractObject : MonoBehaviour
 
     [Header("Dialogue")]
     [TextArea] public string[] sentences;
-
-    [Header("Dialogue2")]
-    [TextArea] public string[] sentences2; 
+   
 
     public TextMeshProUGUI infoText = null;
 
     public bool isTextDisplayed;
 
-    public Inventory playerInventory; 
+    public Inventory playerInventory;
+
+    public string npcName;
+
+    public AllDialogues _allDialogues; 
    
 
     // Start is called before the first frame update
@@ -64,10 +66,14 @@ public class InteractObject : MonoBehaviour
 
         playerInventory = GameObject.FindObjectOfType<Inventory>();
 
-        questManager = GameObject.FindObjectOfType<QuestManager>(); 
+        questManager = GameObject.FindObjectOfType<QuestManager>();
+
+        _allDialogues = GameObject.FindObjectOfType<AllDialogues>(); 
 
         if(_typePickUp == null)
             _typePickUp = TypePickUp.None;
+
+        npcName = this.gameObject.name; 
     }
     
 
@@ -105,8 +111,20 @@ public class InteractObject : MonoBehaviour
     public void PickUp() 
     {
         Debug.Log("Picking up object" + gameObject.name);
-        playerInventory.AddToInventory(_typePickUp.ToString()); 
-        this.gameObject.SetActive(false); 
+
+        if (_typePickUp != TypePickUp.Fish)
+        {
+            playerInventory.AddToInventory(_typePickUp.ToString());
+            this.gameObject.SetActive(false);
+        }
+        else 
+        {
+            if (playerInventory.fishingRod) 
+            {
+                playerInventory.AddToInventory(_typePickUp.ToString());
+                this.gameObject.SetActive(false);
+            }
+        }
     }
 
     public void Info()
@@ -120,10 +138,57 @@ public class InteractObject : MonoBehaviour
 
     public void Dialogue() 
     { 
-        if(questManager.task1)
-        dialogueManager.StartDialogue(sentences2);
-        else
+        if(npcName == "SickOldMan_357") 
+        {
+            if (!questManager._task01.assigned) 
+            {
+                dialogueManager.StartDialogue(sentences);
+                questManager._task01.assigned = true; 
+            }
+            else if (questManager._task01.assigned && !dialogueManager.thePlayer.isOnDialogue) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask01InProgress); 
+            }
+        }
+        else if (npcName == "Chef_78") 
+        {
+            if (questManager._task01.assigned && !questManager._task02.assigned)
+            {
+                dialogueManager.StartDialogue(_allDialogues.TheChefDialogueTask01InProgress);
+                questManager._task02.assigned = true;
+            }
+            else if (questManager._task02.assigned && !dialogueManager.thePlayer.isOnDialogue && !questManager._task02.completed)
+            {
+                dialogueManager.StartDialogue(_allDialogues.TheChefDialogueTask02InProgress);
+            }
+            else if (questManager._task02.completed) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.TheChefDialogueTask02Completed);
+                questManager._task03.assigned = true; 
+            }
+            else
+                dialogueManager.StartDialogue(sentences); 
+        }
+        else if(npcName == "Fisherman_17") 
+        {
+            if (questManager._task03.assigned && !questManager.talkFisherman)
+            {
+                dialogueManager.StartDialogue(_allDialogues.FishermanDialogueTask02Completed);
+                questManager.talkFisherman = true;
+                playerInventory.fishingRod = true; 
+            }
+            else if (questManager._task03.assigned && questManager.talkFisherman && !dialogueManager.thePlayer.isOnDialogue)
+            {
+                dialogueManager.StartDialogue(_allDialogues.FishermanDialogueTask03Assigned);
+            }
+            else
+                dialogueManager.StartDialogue(sentences); 
+        }
+        else 
+        {
             dialogueManager.StartDialogue(sentences);
+        }
+                 
     }
     
 
