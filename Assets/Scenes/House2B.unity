@@ -1677,10 +1677,11 @@ MonoBehaviour:
   _typePickUp: 2
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &153450511
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1820,10 +1821,11 @@ MonoBehaviour:
   _typePickUp: 2
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &169106242
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2066,10 +2068,11 @@ MonoBehaviour:
   _typePickUp: 2
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &551355086
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4187,7 +4190,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.012728691, y: 0.025456905}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4198,7 +4201,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.432766, y: 1.3563962}
   m_EdgeRadius: 0
 --- !u!114 &1594532306
 MonoBehaviour:
@@ -4333,10 +4336,11 @@ MonoBehaviour:
   _typePickUp: 2
   infoMessage: 
   sentences: []
-  sentences2: []
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!58 &1646630374
 CircleCollider2D:
   m_ObjectHideFlags: 0

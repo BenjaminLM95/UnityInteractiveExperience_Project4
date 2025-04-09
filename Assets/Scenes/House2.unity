@@ -1057,7 +1057,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0067618787, y: -0.047332764}
+  m_Offset: {x: -0.019490331, y: 0.041766286}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1068,7 +1068,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.71600395, y: 0.9053345}
+  m_Size: {x: 1.2505977, y: 1.0835326}
   m_EdgeRadius: 0
 --- !u!4 &119855922
 Transform:
@@ -1365,14 +1365,11 @@ MonoBehaviour:
   sentences:
   - 'Hello there! '
   - I am about to cook dinner. Let's talk another time.
-  sentences2:
-  - 'Hello! '
-  - 'Do you need a soup to cure the old man? Ok, I need 3 potatoes, 5 apples and
-    3 pieces of cheese. You can find the cheese in my basement. '
-  - 'Find all these ingredients and I''ll cook for you. '
   infoText: {fileID: 0}
   isTextDisplayed: 0
   playerInventory: {fileID: 0}
+  npcName: 
+  _allDialogues: {fileID: 0}
 --- !u!61 &1502989152
 BoxCollider2D:
   m_ObjectHideFlags: 0

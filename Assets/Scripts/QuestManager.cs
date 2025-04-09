@@ -18,7 +18,10 @@ public class QuestManager : MonoBehaviour
 
     public Inventory _playerInventory;
 
-    public bool talkFisherman = false; 
+    public bool talkFisherman = false;
+    public bool chefMakingSoup = false;
+    public bool SoupReady = false; 
+
     
 
     // Start is called before the first frame update
