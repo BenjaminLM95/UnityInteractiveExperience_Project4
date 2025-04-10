@@ -17,7 +17,8 @@ public class Inventory : MonoBehaviour
     public int nPotato;
     public int currentPotato;
     public bool fishingRod = false;
-    public bool Soup = false; 
+    public bool Soup = false;
+    public bool Information = false; 
 
     public TextMeshProUGUI inventoryDisplay = new TextMeshProUGUI(); 
     // Start is called before the first frame update

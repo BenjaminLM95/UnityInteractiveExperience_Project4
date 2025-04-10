@@ -14,6 +14,12 @@ public class AllDialogues : MonoBehaviour
     [Header("Dialogue")]
     [TextArea] public string[] SickOldManDialogueSoupReady;
 
+    [Header("Dialogue")]
+    [TextArea] public string[] SickOldManDialogueTask05Assigned;
+
+    [Header("Dialogue")]
+    [TextArea] public string[] SickOldManDialogueTask05InProgress; 
+
 
     // All dialogue for the chef
     [Header("Dialogue")]
@@ -51,6 +57,12 @@ public class AllDialogues : MonoBehaviour
     [Header("Dialogue")]
     [TextArea] public string[] CowboyDialogueTask04Assigned;
 
+    [Header("Dialogue")]
+    [TextArea] public string[] CowboyDialogueTask05Completed;
+
+    [Header("Dialogue")]
+    [TextArea] public string[] CowboyDialogueConclusion; 
+
 
     // All dialogues for Gnome 1
 
@@ -59,6 +71,12 @@ public class AllDialogues : MonoBehaviour
 
     [Header("Dialogue")]
     [TextArea] public string[] GnomeDialogueTask05Assigned;
+
+    [Header("Dialogue")]
+    [TextArea] public string[] GnomeDialogueTask05Completed;    
+
+    [Header("Dialogue")]
+    [TextArea] public string[] GnomeDialogueInformationGiven; 
 
 
     // All dialogue for Gnome 2

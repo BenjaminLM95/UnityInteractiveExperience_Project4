@@ -11065,6 +11065,7 @@ MonoBehaviour:
   talkFisherman: 0
   chefMakingSoup: 0
   SoupReady: 0
+  GemReceived: 0
 --- !u!4 &792533313
 Transform:
   m_ObjectHideFlags: 0
@@ -11105,6 +11106,13 @@ MonoBehaviour:
   - Thank you young man. I am going to be better soon. *Cough*
   - By the way, I know there is a cowboy nearby the ruins. Talk to him, I think he
     will need help.
+  SickOldManDialogueTask05Assigned:
+  - 'Are you helping the Coyboy? That''s great! '
+  - 'Oh, so the gnome is asking you for gems. You can find ten gems outside but I
+    can help you giving you one. '
+  SickOldManDialogueTask05InProgress:
+  - 'Collect 10 gems and get the information to need to help the coyboy. He is a
+    good friend of mine. '
   TheChefDialogueTask01InProgress:
   - What!? The old man is sick? So, he needs a soup.
   - 'I don''t have the ingredients. Can you please collect them? '

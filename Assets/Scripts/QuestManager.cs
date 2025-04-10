@@ -20,8 +20,8 @@ public class QuestManager : MonoBehaviour
 
     public bool talkFisherman = false;
     public bool chefMakingSoup = false;
-    public bool SoupReady = false; 
-
+    public bool SoupReady = false;
+    public bool GemReceived = false; 
     
 
     // Start is called before the first frame update
@@ -58,6 +58,10 @@ public class QuestManager : MonoBehaviour
         CheckForTask2();
 
         CheckForTask3(); 
+
+        CheckForTask4();
+
+        CheckForTask5();
     }
 
 
@@ -106,12 +110,27 @@ public class QuestManager : MonoBehaviour
 
     public void CheckForTask4()
     {
+        if (_task04.progress == TaskProgression.Unnasigned && _task04.assigned)
+        {
+            _task04.progress = TaskProgression.InProgress;
+        }
 
+        if (_task04.progress == TaskProgression.InProgress && _task04.completed)
+            _task04.progress = TaskProgression.Completed;
     }
 
     public void CheckForTask5()
     {
+        if (_task05.progress == TaskProgression.Unnasigned && _task05.assigned)
+        {
+            _task05.progress = TaskProgression.InProgress;
+        }
 
+        if (_task05.progress == TaskProgression.InProgress && _task05.completed)
+            _task05.progress = TaskProgression.Completed;
+
+        if (_playerInventory.nGem >= 10 && _task05.progress == TaskProgression.InProgress)
+            _task05.completed = true; 
     }
 
     public string[] setTheDialogue(string[] dialogue) 

@@ -154,10 +154,19 @@ public class InteractObject : MonoBehaviour
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask03Completed);
                 questManager.SoupReady = true; 
             }
-            else if (playerInventory.Soup) 
+            else if (playerInventory.Soup && !questManager._task05.assigned) 
             {
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueSoupReady);
                 questManager._task01.completed = true; 
+            }
+            else if (questManager._task05.assigned && !questManager.GemReceived) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask05Assigned);
+                questManager.GemReceived = true;    
+            }
+            else if (questManager.GemReceived && !dialogueManager.thePlayer.isOnDialogue) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask05InProgress); 
             }
         }
         else if (npcName == "Chef_78") 
@@ -220,21 +229,39 @@ public class InteractObject : MonoBehaviour
             {
                 dialogueManager.StartDialogue(_allDialogues.CowboyDialogueTask04Assigned); 
             }
+            else if (playerInventory.Information && !questManager._task04.completed) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.CowboyDialogueTask05Completed);
+                questManager._task04.completed = true;
+            }
+            else if (questManager._task04.completed && !dialogueManager.thePlayer.isOnDialogue) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.CowboyDialogueConclusion); 
+            }
         }
         else if (npcName == "Gnome") 
         {
-            if (!questManager._task04.assigned) 
+            if (!questManager._task04.assigned)
             {
                 dialogueManager.StartDialogue(sentences);
             }
-            else if (questManager._task04.assigned && !questManager._task05.assigned) 
+            else if (questManager._task04.assigned && !questManager._task05.assigned)
             {
                 dialogueManager.StartDialogue(_allDialogues.GnomeDialogueTask04Assigned);
-                questManager._task05.assigned = true; 
+                questManager._task05.assigned = true;
             }
-            else if (questManager._task05.assigned) 
+            else if (questManager._task05.assigned && !questManager._task05.completed)
             {
-                dialogueManager.StartDialogue(_allDialogues.GnomeDialogueTask05Assigned); 
+                dialogueManager.StartDialogue(_allDialogues.GnomeDialogueTask05Assigned);
+            }
+            else if (questManager._task05.completed && !playerInventory.Information)
+            {
+                dialogueManager.StartDialogue(_allDialogues.GnomeDialogueTask05Completed);
+                playerInventory.Information = true;
+            }
+            else if (playerInventory.Information) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.GnomeDialogueInformationGiven); 
             }
         }
         else if(npcName == "Gnome2") 
