@@ -18,7 +18,10 @@ public class AllDialogues : MonoBehaviour
     [TextArea] public string[] SickOldManDialogueTask05Assigned;
 
     [Header("Dialogue")]
-    [TextArea] public string[] SickOldManDialogueTask05InProgress; 
+    [TextArea] public string[] SickOldManDialogueTask05InProgress;
+
+    [Header("Dialogue")]
+    [TextArea] public string[] SickOldManDialogueFinale;
 
 
     // All dialogue for the chef
@@ -82,7 +85,11 @@ public class AllDialogues : MonoBehaviour
     // All dialogue for Gnome 2
 
     [Header("Dialogue")]
-    [TextArea] public string[] Gnome02DialogueTask05Assigned; 
+    [TextArea] public string[] Gnome02DialogueTask05Assigned;
 
+    // Start Dialogue
+
+    [Header("Dialogue")]
+    [TextArea] public string[] StartingDialogue; 
 
 }

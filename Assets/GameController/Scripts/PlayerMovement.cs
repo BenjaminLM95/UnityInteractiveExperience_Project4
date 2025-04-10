@@ -15,7 +15,12 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isOnDialogue;
 
-    public int Points; 
+    public int Points;
+
+    public GameObject InventoryIMG;
+    public bool inventoryOpen;
+
+    public GameObject StartText; 
  
 
     private void Awake()
@@ -25,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         Actions.MoveEvent += UpdateMoveVector;
         isOnDialogue = false;
         Points = 0; 
+        inventoryOpen = false;
 
     }
     // Update is called once per frame
@@ -48,8 +54,25 @@ public class PlayerMovement : MonoBehaviour
             _myAnimator.speed = 0;
         }
 
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            if (inventoryOpen) 
+            {
+                inventoryOpen = false;
+                InventoryIMG.SetActive(false);
+            }
+            else
+            {  
+                inventoryOpen = true;
+                InventoryIMG.SetActive(true);
+            }
+        }
 
-        
+        if(Input.GetKeyDown(KeyCode.X))
+            StartText.SetActive(false);
+
+
+
     }
 
     private void UpdateMoveVector(Vector2 InputVector)
@@ -66,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
     public void MoveFaster() 
     {        
        moveSpeed = 8f;
-        _myAnimator.speed = 3;
+        _myAnimator.speed = 4;
     }
 
     public void ResumeSpeed() 

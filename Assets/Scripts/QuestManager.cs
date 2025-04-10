@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Task;
+using TMPro; 
 
 public class QuestManager : MonoBehaviour
 {
@@ -21,7 +22,10 @@ public class QuestManager : MonoBehaviour
     public bool talkFisherman = false;
     public bool chefMakingSoup = false;
     public bool SoupReady = false;
-    public bool GemReceived = false; 
+    public bool GemReceived = false;
+
+    public bool finale = false;
+   
     
 
     // Start is called before the first frame update
@@ -62,6 +66,8 @@ public class QuestManager : MonoBehaviour
         CheckForTask4();
 
         CheckForTask5();
+
+       
     }
 
 
@@ -117,6 +123,8 @@ public class QuestManager : MonoBehaviour
 
         if (_task04.progress == TaskProgression.InProgress && _task04.completed)
             _task04.progress = TaskProgression.Completed;
+
+        
     }
 
     public void CheckForTask5()

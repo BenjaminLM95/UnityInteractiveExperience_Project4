@@ -114,23 +114,28 @@ public class InteractObject : MonoBehaviour
 
         if (_typePickUp != TypePickUp.Fish)
         {
-            playerInventory.AddToInventory(_typePickUp.ToString());
-            this.gameObject.SetActive(false);
+            AddToInventory(); 
         }
         else 
         {
             if (playerInventory.fishingRod) 
             {
-                playerInventory.AddToInventory(_typePickUp.ToString());
-                this.gameObject.SetActive(false);
+                AddToInventory(); 
             }
         }
+    }
+
+    public void AddToInventory() 
+    {
+        playerInventory.AddToInventory(_typePickUp.ToString());
+        this.gameObject.SetActive(false);
+        
     }
 
     public void Info()
     {
         Debug.Log("Display info message on Object" + gameObject.name);
-        infoText.text = "Info Message: " + infoMessage;       
+        infoText.text = infoMessage;       
         isTextDisplayed = true;
         StopAllCoroutines();
         StartCoroutine(ClearText(5f));
@@ -159,14 +164,19 @@ public class InteractObject : MonoBehaviour
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueSoupReady);
                 questManager._task01.completed = true; 
             }
-            else if (questManager._task05.assigned && !questManager.GemReceived) 
+            else if (questManager._task05.assigned && !questManager.GemReceived && !questManager._task04.completed) 
             {
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask05Assigned);
                 questManager.GemReceived = true;    
             }
-            else if (questManager.GemReceived && !dialogueManager.thePlayer.isOnDialogue) 
+            else if (questManager.GemReceived && !dialogueManager.thePlayer.isOnDialogue && !questManager._task04.completed) 
             {
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask05InProgress); 
+            }
+            else if (questManager._task04.completed) 
+            {
+                dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueFinale);
+                questManager.finale = true; 
             }
         }
         else if (npcName == "Chef_78") 
@@ -183,11 +193,15 @@ public class InteractObject : MonoBehaviour
             else if (questManager._task02.completed && !questManager._task03.completed) 
             {
                 dialogueManager.StartDialogue(_allDialogues.TheChefDialogueTask02Completed);
-                questManager._task03.assigned = true; 
+                questManager._task03.assigned = true;
+                playerInventory.currentNApple -= 3;
+                playerInventory.currentNCheese -= 4;
+                playerInventory.currentPotato -= 4; 
             }
             else if (questManager._task03.completed && !questManager.SoupReady) 
             {
                 dialogueManager.StartDialogue(_allDialogues.TheChefDialogueTask03Completed);
+                playerInventory.currentNFish -= 1; 
                 questManager.chefMakingSoup = true; 
             }
             else if (questManager._task03.completed && questManager.SoupReady) 
@@ -225,7 +239,7 @@ public class InteractObject : MonoBehaviour
                 if (questManager._task01.completed)
                     questManager._task04.assigned = true; 
             }
-            else if(questManager._task04.assigned && !dialogueManager.thePlayer.isOnDialogue) 
+            else if(questManager._task04.assigned && !dialogueManager.thePlayer.isOnDialogue && !playerInventory.Information) 
             {
                 dialogueManager.StartDialogue(_allDialogues.CowboyDialogueTask04Assigned); 
             }
@@ -257,6 +271,7 @@ public class InteractObject : MonoBehaviour
             else if (questManager._task05.completed && !playerInventory.Information)
             {
                 dialogueManager.StartDialogue(_allDialogues.GnomeDialogueTask05Completed);
+                playerInventory.currentNGem-=10; 
                 playerInventory.Information = true;
             }
             else if (playerInventory.Information) 

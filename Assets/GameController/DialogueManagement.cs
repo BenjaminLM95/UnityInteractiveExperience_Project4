@@ -9,7 +9,12 @@ public class DialogueManagement : MonoBehaviour
 
     public GameObject dialogueUI;
     public TextMeshProUGUI dialogueText;
-    public PlayerMovement thePlayer = null; 
+    public PlayerMovement thePlayer = null;
+
+    public GameObject theEndText;
+    public GameObject menuButton;
+    public QuestManager questManager; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +25,11 @@ public class DialogueManagement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(questManager.finale && !thePlayer.isOnDialogue) 
+        {
+            menuButton.SetActive(true);
+            theEndText.SetActive(true);
+        }
     }
 
     public void StartDialogue(string[] sentences) 
