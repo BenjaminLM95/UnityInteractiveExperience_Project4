@@ -10293,7 +10293,7 @@ MonoBehaviour:
   questManager: {fileID: 0}
   type: 1
   _typePickUp: 0
-  infoMessage: Castle, Due West
+  infoMessage: Ruins in the north west
   sentences: []
   infoText: {fileID: 0}
   isTextDisplayed: 0

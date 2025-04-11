@@ -1583,7 +1583,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 510651865}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 483505993}
+        m_TargetAssemblyTypeName: GameStateManager, Assembly-CSharp
+        m_MethodName: SwitchToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &510651865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,7 +1715,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.004679091, g: 0.22012573, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2711,7 +2723,7 @@ MonoBehaviour:
   - 'Alright I will give the information to you. '
   - 'Long ago, a mysterious dinosaur named Umbryxsaurus lived in a hidden valley
     among an ancient human tribe called the Orun. '
-  - 'Unlike any other creature, Umbryxsauruscould move through shadows and was believed
+  - 'Unlike any other creature, Umbryxsaurus could move through shadows and was believed
     to protect the balance of nature. '
   - 'The Orun revered it as a spirit guardian. When a power-hungry outsider tried
     to capture it, he and his warriors disappeared without a trace. '
@@ -6523,8 +6535,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -162,11 +162,13 @@ public class InteractObject : MonoBehaviour
             else if (playerInventory.Soup && !questManager._task05.assigned) 
             {
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueSoupReady);
-                questManager._task01.completed = true; 
+                questManager._task01.completed = true;
+                questManager._task04.assigned = true; 
             }
             else if (questManager._task05.assigned && !questManager.GemReceived && !questManager._task04.completed) 
             {
                 dialogueManager.StartDialogue(_allDialogues.SickOldManDialogueTask05Assigned);
+                playerInventory.currentNGem++; 
                 questManager.GemReceived = true;    
             }
             else if (questManager.GemReceived && !dialogueManager.thePlayer.isOnDialogue && !questManager._task04.completed) 
@@ -236,9 +238,8 @@ public class InteractObject : MonoBehaviour
             if (!questManager._task04.assigned) 
             {
                 dialogueManager.StartDialogue(sentences);
-                if (questManager._task01.completed)
-                    questManager._task04.assigned = true; 
-            }
+                
+            }            
             else if(questManager._task04.assigned && !dialogueManager.thePlayer.isOnDialogue && !playerInventory.Information) 
             {
                 dialogueManager.StartDialogue(_allDialogues.CowboyDialogueTask04Assigned); 

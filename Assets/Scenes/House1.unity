@@ -3323,8 +3323,8 @@ MonoBehaviour:
   infoMessage: 
   sentences:
   - 'Hello, grandson. *Cough* *Cough*. I am feeling sick today. '
-  - 'Normally, if I drink soup I would recover but I lack ingredient. '
-  - 'There is a chef nearby. If you ask him, he would provide the ingredient and
+  - 'Normally, if I drink soup I would recover but I lack ingredients. '
+  - 'There is a chef nearby. If you ask him, he would provide the ingredients and
     he will cook it for you. '
   infoText: {fileID: 0}
   isTextDisplayed: 0

@@ -14,7 +14,7 @@ public class UIManagement : MonoBehaviour
     {
         DisableAllUI();
         MainMenuUI.gameObject.SetActive(true);
-        Cursor.visible = true;
+        //Cursor.visible = true;
 
     }
 
@@ -23,7 +23,7 @@ public class UIManagement : MonoBehaviour
         DisableAllUI();
         playerUI.gameObject.SetActive(true);
         gamePlayUI.gameObject.SetActive(true);
-        Cursor.visible = false;
+        //Cursor.visible = false;
 
     }
 
@@ -31,7 +31,7 @@ public class UIManagement : MonoBehaviour
     {
         PausedUI.gameObject.SetActive(true);
         gamePlayUI.gameObject.SetActive(false); 
-        Cursor.visible = true;
+        //Cursor.visible = true;
 
     }
 
