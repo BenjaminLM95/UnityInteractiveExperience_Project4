@@ -670,7 +670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I came here to visit my granfather.  \nI was told he is living in one
+  m_text: "I came here to visit my grandfather.  \nI was told he is living in one
     of these tents. \nPress 'X'"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2649,7 +2649,7 @@ MonoBehaviour:
   - 'Collect 10 gems and get the information you need to help the coyboy. He is a
     good friend of mine. '
   SickOldManDialogueFinale:
-  - 'You help the coyboy. That''s great. '
+  - 'You helped the coyboy. That''s great. '
   - "Well grandson, I am feeling way better and that's thank to you. \n"
   - Now, relax and enjoy your visit
   TheChefDialogueTask01InProgress:
